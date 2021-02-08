@@ -30,3 +30,11 @@ def multiply(*inputs):
 s=multiply(10,20,30)
 print(type(s))
 print(s)
+
+class trial():
+    def add(self):
+      self.i=100
+      print("value inside object:", self.i)
+s=trial()
+print(type(s))
+s.add()
