@@ -1,4 +1,3 @@
-# python-codes
 class trial():
     def add(*args):
         print("sum of given values :", sum(args))
